@@ -1,0 +1,40 @@
+version: "3.8"
+
+networks:
+  flowise-net:
+    driver: bridge
+
+volumes:
+  flowise_postgres_data:
+
+services:
+  # PostgreSQL para Flowise
+  flowise_postgres:
+    image: postgres:15
+    container_name: flowise_postgres
+    environment:
+      POSTGRES_USER: ${DATABASE_USER}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      POSTGRES_DB: ${DATABASE_NAME}
+    networks:
+      - flowise-net
+    ports:
+      - "5432:5432"
+    volumes:
+      - flowise_postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  # Flowise
+  flowise:
+    image: flowiseai/flowise:latest
+    container_name: flowise
+    env_file:
+      - .env
+    depends_on:
+      - flowise_postgres
+    networks:
+      - flowise-net
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+
