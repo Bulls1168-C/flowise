@@ -99,13 +99,19 @@ docker compose up -d
 Para acceder a Flowise mediante https://iaflujos.quito.gob.ec
 
 1️⃣ Obtener la IP del Gateway del contenedor flowise:
+```
 docker inspect -f '{{range .NetworkSettings.Networks}}{{.Gateway}}{{end}}' flowise
+```
 
 2️⃣ Editar /etc/hosts como superusuario:
+```
 sudo nano /etc/hosts
+```
 Agregar al final:
+Ejemplo:
+```
 <IP_DEL_GATEWAY> iaflujos.quito.gob.ec
-
+```
 3️⃣ Verificar resolución del dominio:
 ping iaflujos.quito.gob.ec
 
