@@ -4,6 +4,7 @@ networks:
 
 volumes:
   flowise_postgres_data:
+  flowise_data:
 
 services:
   # ─── PostgreSQL para Flowise ───
