@@ -59,19 +59,17 @@ cd flowise
 ```
 tree -a
 ```
+
+## Estructura del Proyecto
+
+```bash
 flowise/
+├── app/                  # Código fuente de la aplicación
+├── certs/                # Certificados SSL
+├── docker-compose.yml    # Configuración de Docker Compose
+├── README.md             # Documentación del proyecto
+└── .env                  # Variables de entorno de ejemplo
 
-├── app/                # Código fuente de la aplicación
-
-├── certs/              # Certificados SSL
-
-├── docker-compose.yml  # Configuración de Docker Compose
-
-├── README.md           # Documentación del proyecto
-
-└── .env                # Variables de entorno de ejemplo
-
-```
 
 
 2️⃣ Configurar variables de entorno (opcional):
