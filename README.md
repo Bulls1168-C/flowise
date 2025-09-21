@@ -50,13 +50,28 @@ Se busca aplicar conceptos de **orquestación de contenedores**, **persistencia 
 ## ⚡ Instalación y primer arranque
 
 1️⃣ **Clonar el repositorio:**
-
 ```
 git clone https://github.com/panivinux/flowise.git
 cd flowise
 ```
 
+📦 Estructura del proyecto
+```
+tree -a
+```
+flowise/
+├── app/                # Código fuente de la aplicación
+├── certs/              # Certificados SSL
+├── docker-compose.yml  # Configuración de Docker Compose
+├── README.md           # Documentación del proyecto
+└── .env                # Variables de entorno de ejemplo
+```
+
+
 2️⃣ Configurar variables de entorno (opcional):
+```
+nano .env 
+```
 
 ```
 # ─── Credenciales iniciales (solo para primer arranque) ───
@@ -79,13 +94,6 @@ PORT=3000
 ```
 docker compose up -d
 ```
-4️⃣ Acceder a la aplicación:
-http://localhost:3000
-
-🔑 Credenciales iniciales (solo para el primer arranque)
-| Usuario | Contraseña  |
-| ------- | ----------- |
-| admin   | Adm1n!2025# |
 
 🖥️ Configuración de dominio local
 Para acceder a Flowise mediante https://iaflujos.quito.gob.ec
@@ -101,16 +109,15 @@ Agregar al final:
 3️⃣ Verificar resolución del dominio:
 ping iaflujos.quito.gob.ec
 
-📦 Estructura del proyecto
-```
-tree -a
-```
-flowise/
-├── app/                # Código fuente de la aplicación
-├── certs/              # Certificados SSL
-├── docker-compose.yml  # Configuración de Docker Compose
-├── README.md           # Documentación del proyecto
-└── .env.example        # Variables de entorno de ejemplo
+4️⃣ Acceder a la aplicación:
+https://iaflujos.quito.gob.ec
+
+
+🔑 Credenciales iniciales (solo para el primer arranque)
+| Usuario | Contraseña  |
+| ------- | ----------- |
+| admin   | Adm1n!2025# |
+
 
 📝 Uso básico
 Inicia sesión con las credenciales iniciales.
