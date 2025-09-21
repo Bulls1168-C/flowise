@@ -49,7 +49,7 @@ Se busca aplicar conceptos de **orquestación de contenedores**, **persistencia 
 
 ## ⚡ Instalación y primer arranque
 
-### Flowise esta configurado con certificados SSL en esta URL https://iaflujos.quito.gob.ec
+### La instalación de Flowise esta configurado con certificados autofirmados SSL, y su validación se realiza en esta URL https://iaflujos.quito.gob.ec
 
 1️⃣ **Clonar el repositorio:**
 ```
