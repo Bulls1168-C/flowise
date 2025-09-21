@@ -1,4 +1,12 @@
-# 🚀 Flowise – Grupo 1 (Municipio de Quito)
+📦 Curso: Despliegue de Aplicaciones con Docker
+🎓 Información del Curso
+
+    Curso: Despliegue de Aplicaciones con Docker
+    Proyecto: Práctica de Docker Compose
+    Profesor: Ing. Edison Naranjo (CEC-EPN)
+    Fecha: 19 de Septiembre de 2025
+
+# 🚀 Tarea Final Flowise – Grupo 1 (Municipio de Quito)
 
 Bienvenido al repositorio del proyecto **Flowise**, desarrollado por el **Grupo 1 del Municipio de Quito**.  
 Este proyecto forma parte del **Trabajo Final: 
