@@ -36,6 +36,8 @@ services:
       - flowise-net
     expose:
       - "3000"
+    volumes:
+      - ./flowise_data:/root/.flowise
     restart: unless-stopped
 
   # ─── Nginx Reverse Proxy ───
