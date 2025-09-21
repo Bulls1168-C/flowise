@@ -183,12 +183,15 @@ ping -c4 iaflujos.quito.gob.ec
 ```
 
 4️⃣ Acceder a la aplicación y configurar - "esperar hasta que levanten bien los contenedores" :
+Aceptar el riesgo del certificado no seguro porque es autofirmado.
+
 https://iaflujos.quito.gob.ec
 
 🔑 Credenciales iniciales (solo para el primer arranque)
 | Usuario | Contraseña  |
 | ------- | ----------- |
 | admin   | Adm1n!2025# |
+
 
 
 📝 Uso básico
