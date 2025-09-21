@@ -49,7 +49,7 @@ Se busca aplicar conceptos de **orquestación de contenedores**, **persistencia 
 
 ## ⚡ Instalación y primer arranque
 
-### La instalación de Flowise esta configurado con certificados autofirmados SSL, y su validación se realiza en esta URL https://iaflujos.quito.gob.ec
+### La instalación de Flowise esta configurado con certificados autofirmados SSL y su validación se realizará en esta URL https://iaflujos.quito.gob.ec, para esto seguir los siguientes pasos:
 
 1️⃣ **Clonar el repositorio:**
 ```
@@ -157,8 +157,7 @@ PORT=3000
 docker compose up -d
 ```
 
-🖥️ Configuración de dominio local
-Para acceder a Flowise mediante https://iaflujos.quito.gob.ec
+🖥️ Configuración de dominio local iaflujos.quito.gob.ec
 
 1️⃣ Obtener la IP del Gateway del contenedor flowise:
 ```
