@@ -192,17 +192,7 @@ https://iaflujos.quito.gob.ec
 
 
 📝 Uso básico
-Inicia sesión con las credenciales iniciales.
-
-Crea y gestiona flujos de trabajo en Flowise.
-
-Conecta tus APIs y modelos de IA según tu proyecto.
-
 ⚠️ Seguridad
-Nunca subir archivos de claves privadas o certificados (.key, .pem) a repositorios públicos.
-
-Cambia las credenciales iniciales después del primer arranque.
-
 
 
 
