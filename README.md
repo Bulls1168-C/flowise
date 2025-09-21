@@ -125,8 +125,9 @@ services:
     networks:
       - flowise-net
 ```
+4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟 1️⃣1️⃣
 
-2️⃣ Configurar variables de entorno (opcional):
+3️⃣ Configurar variables de entorno (opcional):
 ```
 nano .env 
 ```
@@ -147,7 +148,7 @@ HUGGINGFACE_API_KEY=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
 PORT=3000
 ```
 
-3️⃣ Levantar los servicios con Docker Compose:
+4️⃣ Levantar los servicios con Docker Compose:
 ```
 docker compose up -d
 ```
@@ -172,9 +173,8 @@ Ejemplo:
 3️⃣ Verificar resolución del dominio:
 ping iaflujos.quito.gob.ec
 
-4️⃣ Acceder a la aplicación:
+4️⃣ Acceder a la aplicación y configurar:
 https://iaflujos.quito.gob.ec
-
 
 🔑 Credenciales iniciales (solo para el primer arranque)
 | Usuario | Contraseña  |
