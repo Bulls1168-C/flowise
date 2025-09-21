@@ -1,7 +1,8 @@
 # 🚀 Flowise – Grupo 1 (Municipio de Quito)
 
 Bienvenido al repositorio del proyecto **Flowise**, desarrollado por el **Grupo 1 del Municipio de Quito**.  
-Este proyecto forma parte del **Trabajo Final: Despliegue de entornos de automatización con Flowise integrados con PostgreSQL en Docker Compose**.
+Este proyecto forma parte del **Trabajo Final: 
+Despliegue de entornos de automatización con Flowise integrados con PostgreSQL en Docker Compose**.
 
 ---
 
@@ -21,6 +22,7 @@ Este proyecto forma parte del **Trabajo Final: Despliegue de entornos de automat
 
 El objetivo de esta parte del trabajo es desplegar **Flowise**, integrado con **PostgreSQL**, utilizando **Docker Compose**.  
 Se busca aplicar conceptos de **orquestación de contenedores**, **persistencia de datos**, **separación de servicios** y **buenas prácticas** en la gestión de entornos.
+Como valor agregado se ha instalado certificados autofirmados SSL y el ingreso al sistema se realizará en https://iaflujos.quito.gob.ec
 
 ---
 
