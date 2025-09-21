@@ -173,8 +173,10 @@ sudo nano /etc/hosts
 Agregar al final:
 Ejemplo:
 ```
-<IP_DEL_GATEWAY> iaflujos.quito.gob.ec
+172.18.0.1 iaflujos.quito.gob.ec
 ```
+Tú escribirar en el archivo hosts la IP del Gateway que salio del contendor flowise.
+
 3️⃣ Verificar resolución del dominio:
 ping iaflujos.quito.gob.ec
 
