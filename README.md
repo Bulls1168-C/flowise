@@ -128,6 +128,7 @@ services:
 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟 1️⃣1️⃣
 
 3️⃣ Configurar variables de entorno (opcional):
+Si deseas cambiar el usuario y clave, loo puedes realizar en este archivo .env de igual manera los parámetros de la base de datos:
 ```
 nano .env 
 ```
