@@ -49,6 +49,8 @@ Se busca aplicar conceptos de **orquestación de contenedores**, **persistencia 
 
 ## ⚡ Instalación y primer arranque
 
+# 🚀 Flowise esta configurado con certificados SSL en esta URL https://iaflujos.quito.gob.ec
+
 1️⃣ **Clonar el repositorio:**
 ```
 git clone https://github.com/panivinux/flowise.git
@@ -129,7 +131,7 @@ services:
 
 3️⃣ Configurar variables de entorno (opcional):
 
-Si deseas cambiar el usuario y clave, loo puedes realizar en este archivo .env de igual manera los parámetros de la base de datos:
+Si deseas cambiar el usuario y clave, lo puedes realizar en este archivo .env de igual manera los parámetros de la base de datos:
 ```
 nano .env 
 ```
