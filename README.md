@@ -196,7 +196,11 @@ https://iaflujos.quito.gob.ec
 
 📝 Registrar un usuario
 <img src="https://github.com/panivinux/flowise/blob/main/img/iaflujo2.png" width="600">
-⚠️ Seguridad
+
+📝 Ingresar a la administración de Flowise
+
+
+
 
 
 
