@@ -192,7 +192,7 @@ https://iaflujos.quito.gob.ec
 | ------- | ----------- |
 | admin   | Adm1n!2025# |
 
-
+https://github.com/panivinux/flowise/img/iaflujo1.png
 
 📝 Uso básico
 ⚠️ Seguridad
