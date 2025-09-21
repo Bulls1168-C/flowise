@@ -192,7 +192,8 @@ https://iaflujos.quito.gob.ec
 | ------- | ----------- |
 | admin   | Adm1n!2025# |
 
-https://github.com/panivinux/flowise/img/iaflujo1.png
+<img src="https://github.com/panivinux/fastapi-app-scout/raw/main/img/iaflujo1.png" width="600">
+
 
 📝 Uso básico
 ⚠️ Seguridad
