@@ -51,11 +51,13 @@ Se busca aplicar conceptos de **orquestación de contenedores**, **persistencia 
 
 1️⃣ **Clonar el repositorio:**
 
-```bash
+```
 git clone https://github.com/panivinux/flowise.git
 cd flowise
+```
 
 2️⃣ Configurar variables de entorno (opcional):
+
 
 # ─── Credenciales iniciales (solo para primer arranque) ───
 FLOWISE_USERNAME=admin
