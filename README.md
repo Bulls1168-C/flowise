@@ -178,7 +178,9 @@ Ejemplo:
 Tú escribirar en el archivo hosts la IP del Gateway que salio del contendor flowise.
 
 3️⃣ Verificar resolución del dominio:
-ping iaflujos.quito.gob.ec
+```
+ping -c4 iaflujos.quito.gob.ec
+```
 
 4️⃣ Acceder a la aplicación y configurar:
 https://iaflujos.quito.gob.ec
