@@ -102,6 +102,9 @@ Agregar al final:
 ping iaflujos.quito.gob.ec
 
 📦 Estructura del proyecto
+```
+tree -a
+```
 flowise/
 ├── app/                # Código fuente de la aplicación
 ├── certs/              # Certificados SSL
