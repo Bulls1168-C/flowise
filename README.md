@@ -194,8 +194,8 @@ https://iaflujos.quito.gob.ec
 
 <img src="https://github.com/panivinux/flowise/blob/main/img/iaflujo1.png" width="600">
 
-
-📝 Uso básico
+📝 Registrar un usuario
+<img src="https://github.com/panivinux/flowise/blob/main/img/iaflujo2.png" width="600">
 ⚠️ Seguridad
 
 
