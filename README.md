@@ -182,7 +182,7 @@ Tú escribirar en el archivo hosts la IP del Gateway que salio del contendor flo
 ping -c4 iaflujos.quito.gob.ec
 ```
 
-4️⃣ Acceder a la aplicación y configurar:
+4️⃣ Acceder a la aplicación y configurar - "esperar hasta que levanten bien los contenedores" :
 https://iaflujos.quito.gob.ec
 
 🔑 Credenciales iniciales (solo para el primer arranque)
