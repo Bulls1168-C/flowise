@@ -69,14 +69,13 @@ flowise/
 ├── docker-compose.yml    # Configuración de Docker Compose
 ├── README.md             # Documentación del proyecto
 └── .env                  # Variables de entorno de ejemplo
-
+```bash
 
 
 2️⃣ Configurar variables de entorno (opcional):
 ```
 nano .env 
 ```
-
 ```
 # ─── Credenciales iniciales (solo para primer arranque) ───
 FLOWISE_USERNAME=admin
