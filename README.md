@@ -69,6 +69,63 @@ flowise/
 └── .env                  # Variables de entorno de ejemplo
 ```
 
+2️⃣ Detalle de docker-compose.yml
+```
+networks:
+  flowise-net:
+    driver: bridge
+
+volumes:
+  flowise_postgres_data:
+
+services:
+  # ─── PostgreSQL para Flowise ───
+  flowise_postgres:
+    image: postgres:15
+    container_name: flowise_postgres
+    environment:
+      POSTGRES_USER: ${DATABASE_USER}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      POSTGRES_DB: ${DATABASE_NAME}
+    networks:
+      - flowise-net
+    ports:
+      - "5432:5432"
+    volumes:
+      - flowise_postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  # ─── Flowise ───
+  flowise:
+    image: flowiseai/flowise:latest
+    container_name: flowise
+    env_file:
+      - .env
+    depends_on:
+      - flowise_postgres
+    networks:
+      - flowise-net
+    expose:
+      - "3000"
+    restart: unless-stopped
+
+  # ─── Nginx Reverse Proxy ───
+  nginx:
+    image: nginx:alpine
+    container_name: flowise_nginx
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./certs:/etc/nginx/certs:ro
+    depends_on:
+      - flowise
+    networks:
+      - flowise-net
+```
+
 2️⃣ Configurar variables de entorno (opcional):
 ```
 nano .env 
