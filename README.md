@@ -58,11 +58,10 @@ cd flowise
 
 2️⃣ Configurar variables de entorno (opcional):
 
-
+```
 # ─── Credenciales iniciales (solo para primer arranque) ───
 FLOWISE_USERNAME=admin
 FLOWISE_PASSWORD=Adm1n!2025#
-
 # ─── Configuración de la base de datos ───
 DATABASE_TYPE=postgres
 DATABASE_HOST=flowise_postgres
@@ -70,16 +69,16 @@ DATABASE_PORT=5432
 DATABASE_NAME=flowisedb
 DATABASE_USER=flowiseusr
 DATABASE_PASSWORD=DbUsr!2025#XyZ
-
 # ─── API Keys ───
 HUGGINGFACE_API_KEY=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
-
 # ─── Puerto de la aplicación ───
 PORT=3000
+```
 
 3️⃣ Levantar los servicios con Docker Compose:
+```
 docker compose up -d
-
+```
 4️⃣ Acceder a la aplicación:
 http://localhost:3000
 
