@@ -60,11 +60,17 @@ cd flowise
 tree -a
 ```
 flowise/
+
 ├── app/                # Código fuente de la aplicación
+
 ├── certs/              # Certificados SSL
+
 ├── docker-compose.yml  # Configuración de Docker Compose
+
 ├── README.md           # Documentación del proyecto
+
 └── .env                # Variables de entorno de ejemplo
+
 ```
 
 
